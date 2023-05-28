@@ -1,36 +1,140 @@
 digraph teams {
-  node [fontname = "JetBrains Mono"];
+  node [fontname = "Cascadia Code"];
   overlap = false;
+  // splines = true;
   splines = polyline;
+  // sep="+1"; // 0.1, +1
+  // esep=1;
 
   // level 0
-  DEFCON [style="bold" href="https://nautilus.institute/"];
+  DEFCON [label="DEF CON '23\nQuals" style="bold" fontsize="26pt" href="https://nautilus.institute/", margin="0.25"];
 
   // level 1
   // team clusters (red)
   subgraph {
     node [color="#db4437" fontcolor="#db4437"];
-    "perfect r✪✪✪t" [href="https://ctftime.org/team/176403"]
-    "Balsn.217@TSJ.tw" [href="https://ctftime.org/team/189868"]
-    "Sauercloud" [href="https://ctftime.org/team/54748"]
-    "Water Paddler" [href="https://ctftime.org/team/155019"]
-    "PTB_WTL" [href="https://ctftime.org/team/119975"]
-    "./V /home/r/.bin/tw" [href="https://ctftime.org/team/189869"]
-    "Straw Hat" [href="https://ctftime.org/team/19208"]
-    "MMM" [href="https://ctftime.org/team/193591"]
-    "Katzebin" [href="https://ctftime.org/team/141539"]
-    "StarBugs" [href="https://ctftime.org/team/152239"]
-    "Shellphish" [href="https://ctftime.org/team/285"]
-    "r3kapig" [href="https://ctftime.org/team/58979"]
-    "DiceGuesser" [href="https://ctftime.org/team/182504"]
-    "OSUSEC" [href="https://ctftime.org/team/12858"]
-    "organizers" [href="https://ctftime.org/team/42934"]
+    "NorseCode" [href="https://ctftime.org/team/110823/"];
+    "mhackeroni" [href="https://ctftime.org/team/57788/"];
+    "orgakraut" [href="https://ctftime.org/team/229364"];
+    "if this doesn't work we'll get more for next year" [href="https://ctftime.org/team/220769/", label="if this doesn't work\nwe'll get more for next year"];
+    "TWN48" [href="https://ctftime.org/team/229439"];
+    "Blue Water" [href="https://ctftime.org/team/205897"];
+    "SuperDiceCode" [href="https://ctftime.org/team/222838"];
+    "Straw Hat" [href="https://ctftime.org/team/19208"];
+    "P1G BuT S4D" [href="https://ctftime.org/team/222421"];
+    "undef1ned" [href="https://ctftime.org/team/189869"];
+    "HypeBoy" [href="https://ctftime.org/team/221939"];
+    "PTB_WTL_0T" [href="https://ctftime.org/team/119975"];
+    "Parliament of Ducks" [];
+    "Never Stop Exploiting";
+    "Shellphish" [href="https://ctftime.org/team/285"];
+    
+    // "Katzebin" [href="https://ctftime.org/team/141539"];
+
+    // these are clusters from 2022 that got re-merged into even bigger clusters 2023
+    "perfect r✪✪✪t" [href="https://ctftime.org/team/176403"];
   }
 
   // level 2
   // individual teams (blue)
   subgraph {
     node [color="#4285f4" fontcolor="#4285f4"];
+
+    // Norsecode
+    "bootplug" [];
+    "ChaGU" [];
+    "Coldboots" [];
+    "Corax" [];
+    "Cyberlandslaget" [];
+    "EPT" [];
+    "Kalmarunionen" [];
+    "Kebab" [];
+    "Fidget" [];
+    "miscgang" [];
+    "Omogen Heap" [];
+    "Pwnagaukar" [];
+    "RR" [];
+    "RumbleInTheJungle" [];
+    "SNHT" [];
+    "Team-0x7" [];
+    "TeamStreamStream" [];
+    "Watever" [];
+
+    // if this doesn't work we'll get more for next year
+    "Project Sekai" [href=""];
+    "thehackerscrew" [href=""];
+    "idek" [href=""];
+    "ARESx" [href=""];
+    "Emu Exploit" [href=""];
+    "Arr3stY0u" [href=""];
+    "DeadSec" [href=""];
+    "Polaris" [href=""];
+    "Lilac" [href=""];
+
+    // mhackeroni
+    "TheRomanXpl0it" [href=""];
+    "n0pwnintended";
+    "towerofhanoi";
+    "fibonhack";
+    "pwnthem0le" [href="https://ctftime.org/team/60467/"];
+    "about:blankets" [href="https://ctftime.org/team/208552"];
+    "PGiatasti" [href="https://ctftime.org/team/80262"];
+    "c00kiesATvenice";
+
+    // Blue Water
+    "Water Paddler" [href="https://ctftime.org/team/155019"]
+    "perfect blue" [href="https://ctftime.org/team/53802"];
+    "r00timentary" [href="https://ctftime.org/team/32783"];
+    "Samsung Research" [href="" label="Samsung\nResearch"];
+
+    // TWN48
+    "Balsn" [href="https://ctftime.org/team/16978"];
+    "217" [href="https://ctftime.org/team/5160"];
+    "TSJ" [href="https://ctftime.org/team/150366"];
+    "HITCON" [href="https://ctftime.org/team/8299"];
+
+    // PTB_WTL_0T
+    "PwnThyBytes" [href="https://ctftime.org/team/59199"];
+    "WreckTheLine" [href="https://ctftime.org/team/57908"];
+    "Zer0Tolerance";
+
+    // undef1ned 
+    "./Vespiary" [href="https://ctftime.org/team/80092"];
+    "RicercaSec" [href=""];
+    "binja" [href="https://ctftime.org/team/9083"];
+    "TokyoWesterns" [href="https://ctftime.org/team/12599"];
+
+    // Straw Hat
+    "Nu1L" [href="https://ctftime.org/team/19208"];
+    "W&M" [href="https://ctftime.org/team/54666"];
+
+    // SuperDiceCode
+    "CodeRed" [href="https://ctftime.org/team/4004"];
+    "DiceGang" [href="https://ctftime.org/team/109452"];
+    "SuperGuesser" [href="https://ctftime.org/team/130817"];
+
+    // Katzebin
+    // "AAA" [href=""];
+    // "Oops" [href="https://ctftime.org/team/4419"];
+    // "Tencent" [href="https://ctftime.org/team/32578"];
+
+    // P1G BuT S4D
+    "r3kapig" [href="https://ctftime.org/team/58979"]
+    "C4T BuT S4D" [href="https://ctftime.org/team/83435"]
+
+    // orgakraut
+    "Sauercloud" [href="https://ctftime.org/team/54748"]
+    "organizers" [href="https://ctftime.org/team/42934"]
+
+    // Parliament of Ducks
+    "PPP" [href="https://ctftime.org/team/284"];
+    "The Duck" [href="https://ctftime.org/team/111501"];
+  }
+
+  // level 3
+  // teams of the above (green)
+  subgraph {
+    node [color="#228B22" fontcolor="#228B22"];
 
     // Sauercloud (Germany)
     "KITCTF" [href="https://ctftime.org/team/7221"];
@@ -44,66 +148,11 @@ digraph teams {
     "Squareroots" [href="https://ctftime.org/team/554"];
     "saarsec" [href="https://ctftime.org/team/15337"];
 
-    // perfect rooot
-    "perfect blue" [href="https://ctftime.org/team/53802"];
-    "r00timentary" [href="https://ctftime.org/team/32783"];
-    "Samsung Research" [href=""];
-
-    // Balsn.217@TSJ.tw
-    "Balsn" [href="https://ctftime.org/team/16978"];
-    "217" [href="https://ctftime.org/team/5160"];
-    "TSJ" [href="https://ctftime.org/team/150366"];
-    "HITCON" [href="https://ctftime.org/team/8299"];
-
-    // PTB_WTL
-    "PwnThyBytes" [href="https://ctftime.org/team/59199"];
-    "WreckTheLine" [href="https://ctftime.org/team/57908"];
-
-    // ./V /home/r/.bin/tw 
-    "./Vespiary" [href="https://ctftime.org/team/80092"];
-    "RicercaSec" [href=""];
-    "binja" [href="https://ctftime.org/team/9083"];
-    "TokyoWesterns" [href="https://ctftime.org/team/12599"];
-
-    // Straw Hat
-    "Nu1L" [href="https://ctftime.org/team/19208"];
-    "W&M" [href="https://ctftime.org/team/54666"];
-    "<Independent researchers>" [href=""];
-
-    // DiceGuesser
-    "DiceGang" [href="https://ctftime.org/team/109452"];
-    "SuperGuesser" [href="https://ctftime.org/team/130817"];
-
-    // StarBugs
-    "CodeRed" [href="https://ctftime.org/team/4004"];
-    "GYG" [href="https://ctftime.org/team/33362"];
-    "SED" [href="https://ctftime.org/team/70332"];
-
-    // Katzebin
-    "AAA" [href=""];
-    "Oops" [href="https://ctftime.org/team/4419"];
-    "Tencent" [href="https://ctftime.org/team/32578"];
-
-    // r3kapig
-    "Eur3kA" [href="https://ctftime.org/team/48512"];
-    "FlappyPig" [href="https://ctftime.org/team/12692"];
-
     // organizers
-    "secret.club" [href=""];
+    "secret.club" [href="https://secret.club"];
     "polyflag" [href="https://ctftime.org/team/112451"];
     "excusemewtf" [href="https://ctftime.org/team/104977/"];
     "the cr0wn" [href="https://ctftime.org/team/48976/"];
-
-    // MMM
-    "PPP" [href="https://ctftime.org/team/284"];
-    "The Duck" [href="https://ctftime.org/team/111501"];
-    "Maple Bacon" [href="https://ctftime.org/team/73723"];
-  }
-
-  // level 3
-  // teams of the above (green)
-  subgraph {
-    node [color="#228B22" fontcolor="#228B22"];
 
     // TSJ
     "10sec" [href="https://ctftime.org/team/61603"];
@@ -111,10 +160,6 @@ digraph teams {
     "Goburin'" [href="https://ctftime.org/team/111613"];
     "NCtfU" [href="https://ctftime.org/team/139610"];
     "Ret2NOP" [href="https://ctftime.org/team/139617"];
-
-    // polyflag
-    "flagbot" [href="https://ctftime.org/team/34878"];
-    "polygl0ts" [href="https://ctftime.org/team/53791"];
 
     // ESPR
     "StratumAuhuur" [href="https://ctftime.org/team/5317"];
@@ -127,6 +172,10 @@ digraph teams {
     "sigpwny" [href="https://ctftime.org/team/27763"]
     "crusaders of rust" [href="https://ctftime.org/team/132628/"]
     "CCC" [href="https://ctftime.org/team/114056/"]
+
+    // r3kapig
+    "Eur3kA" [href="https://ctftime.org/team/48512"];
+    "FlappyPig" [href="https://ctftime.org/team/12692"];
   }
 
   // level 4
@@ -135,100 +184,129 @@ digraph teams {
     node [color="#12b2af" fontcolor="#000000"];
     "CCCAC" [href="https://ctftime.org/team/555"];
     "Stratum0" [href="https://ctftime.org/team/1684"];
+
+    // polyflag
+    "flagbot" [href="https://ctftime.org/team/34878"];
+    "polygl0ts" [href="https://ctftime.org/team/53791"];
   }
 
   // level 1 -> level 0
   // primary edges
   subgraph {
     edge [len=3];
-    "perfect r✪✪✪t" -> DEFCON [style="bold"];
-    "Balsn.217@TSJ.tw" -> DEFCON [style="bold"];
-    "Sauercloud" -> DEFCON [style="bold"];
-    "Water Paddler" -> DEFCON [style="bold"];
-    "PTB_WTL" -> DEFCON [style="bold"];
-    "./V /home/r/.bin/tw" -> DEFCON [style="bold"];
+    "Blue Water" -> DEFCON [style="bold"];
+    "orgakraut" -> DEFCON [style="bold"];
+    "TWN48" -> DEFCON [style="bold"];
+    "PTB_WTL_0T" -> DEFCON [style="bold"];
+    "undef1ned" -> DEFCON [style="bold"];
     "Straw Hat" -> DEFCON [style="bold"];
-    "MMM" -> DEFCON [style="bold"];
-    "Katzebin" -> DEFCON [style="bold"];
-    "StarBugs" -> DEFCON [style="bold"];
+    "Parliament of Ducks" -> DEFCON [style="bold"];
+    // "Katzebin" -> DEFCON [style="bold"];
+    "SuperDiceCode" -> DEFCON [style="bold"];
     "Shellphish" -> DEFCON [style="bold"];
-    "r3kapig" -> DEFCON [style="bold"];
-    "DiceGuesser" -> DEFCON [style="bold"];
-    "OSUSEC" -> DEFCON [style="bold"];
-    "organizers" -> DEFCON [style="bold"];
+    "P1G BuT S4D" -> DEFCON [style="bold"];
+    "if this doesn't work we'll get more for next year" -> DEFCON [style="bold"];
+    "HypeBoy" -> DEFCON [style="bold"];
+    "mhackeroni" -> DEFCON [style="bold"];
+    "Never Stop Exploiting" -> DEFCON [style="bold"];
+    "NorseCode" -> DEFCON [style="bold"];
   }
 
   // level 2 -> level 1
   // secondary edges (teams to clusters)
   subgraph {
     edge [weight=1 style="dashed" color="grey"];
-    // Sauercloud (Germany)
-    "KITCTF" -> "Sauercloud";
-    "Eat Sleep Pwn Repeat" -> "Sauercloud";   
-    "Flux Fingers" -> "Sauercloud";   
-    "Red Rocket" -> "Sauercloud";   
-    "ALLES!" -> "Sauercloud";   
-    "ENOFLAG" -> "Sauercloud";   
-    "FAUST" -> "Sauercloud";   
-    "WizardsOfDos" -> "Sauercloud";   
-    "Squareroots" -> "Sauercloud";   
-    "saarsec" -> "Sauercloud";   
 
-    // perfect rooot
+    // NorseCode
+    "bootplug" -> "NorseCode";
+    "ChaGU" -> "NorseCode";
+    "Coldboots" -> "NorseCode";
+    "Corax" -> "NorseCode";
+    "Cyberlandslaget" -> "NorseCode";
+    "EPT" -> "NorseCode";
+    "Kalmarunionen" -> "NorseCode";
+    "Kebab" -> "NorseCode";
+    "Fidget" -> "NorseCode";
+    "miscgang" -> "NorseCode";
+    "Omogen Heap" -> "NorseCode";
+    "Pwnagaukar" -> "NorseCode";
+    "RR" -> "NorseCode";
+    "RumbleInTheJungle" -> "NorseCode";
+    "SNHT" -> "NorseCode";
+    "Team-0x7" -> "NorseCode";
+    "TeamStreamStream" -> "NorseCode";
+    "Watever" -> "NorseCode";
+
+    // mhackeroni
+    "TheRomanXpl0it" -> "mhackeroni";
+    "n0pwnintended" -> "mhackeroni";
+    "towerofhanoi" -> "mhackeroni";
+    "fibonhack" -> "mhackeroni";
+    "pwnthem0le" -> "mhackeroni";
+    "about:blankets" -> "mhackeroni";
+    "PGiatasti" -> "mhackeroni";
+    "c00kiesATvenice" -> "mhackeroni";
+
+    // Blue Water
+    "perfect r✪✪✪t" -> "Blue Water";
+    "Water Paddler" -> "Blue Water";
     "perfect blue" ->"perfect r✪✪✪t";
     "r00timentary" -> "perfect r✪✪✪t";
     "Samsung Research" -> "perfect r✪✪✪t";
 
-    // Balsn.217@TSJ.tw
-    "Balsn" -> "Balsn.217@TSJ.tw";
-    "217" -> "Balsn.217@TSJ.tw";
-    "TSJ" -> "Balsn.217@TSJ.tw";
-    "HITCON" -> "Balsn.217@TSJ.tw";
+    // if this doesn't work we'll get more for next year
+    "Project Sekai" -> "if this doesn't work we'll get more for next year";
+    "thehackerscrew" -> "if this doesn't work we'll get more for next year";
+    "idek" -> "if this doesn't work we'll get more for next year";
+    "ARESx" -> "if this doesn't work we'll get more for next year";
+    "Emu Exploit" -> "if this doesn't work we'll get more for next year";
+    "Arr3stY0u" -> "if this doesn't work we'll get more for next year";
+    "DeadSec" -> "if this doesn't work we'll get more for next year";
+    "Polaris" -> "if this doesn't work we'll get more for next year";
+    "Lilac" -> "if this doesn't work we'll get more for next year";
+
+    // orgakraut
+    "organizers" -> "orgakraut";
+    "Sauercloud" -> "orgakraut";
+
+    // TWN48
+    "Balsn" -> "TWN48";
+    "217" -> "TWN48";
+    "TSJ" -> "TWN48";
+    "HITCON" -> "TWN48";
 
     // PTB_WTL
-    "PwnThyBytes" -> "PTB_WTL";
-    "WreckTheLine" -> "PTB_WTL";
+    "PwnThyBytes" -> "PTB_WTL_0T";
+    "WreckTheLine" -> "PTB_WTL_0T";
+    "Zer0Tolerance" -> "PTB_WTL_0T"
 
-    // ./V /home/r/.bin/tw
-    "./Vespiary" -> "./V /home/r/.bin/tw";
-    "RicercaSec" -> "./V /home/r/.bin/tw";
-    "binja" -> "./V /home/r/.bin/tw";
-    "TokyoWesterns" -> "./V /home/r/.bin/tw";
+    // undef1ned
+    "./Vespiary" -> "undef1ned";
+    "RicercaSec" -> "undef1ned";
+    "binja" -> "undef1ned";
+    "TokyoWesterns" -> "undef1ned";
 
     // Straw Hat
     "Nu1L" -> "Straw Hat";
     "W&M" -> "Straw Hat";
-    "<Independent researchers>" -> "Straw Hat";
 
-    // DiceGuesser
-    "DiceGang" -> "DiceGuesser";
-    "SuperGuesser" -> "DiceGuesser";
-
-    // StarBugs
-    "CodeRed" -> "StarBugs";
-    "GYG" -> "StarBugs";
-    "SED" -> "StarBugs";
+    // SuperDiceCode
+    "CodeRed" -> "SuperDiceCode";
+    "DiceGang" -> "SuperDiceCode";
+    "SuperGuesser" -> "SuperDiceCode";
 
     // Katzebin
-    "AAA" -> "Katzebin";
-    "Oops" -> "Katzebin";
-    "Tencent" -> "Katzebin";
+    // "AAA" -> "Katzebin";
+    // "Oops" -> "Katzebin";
+    // "Tencent" -> "Katzebin";
 
-    // r3kapig
-    "Eur3kA" -> "r3kapig";
-    "FlappyPig" -> "r3kapig";
+    // P1G BuT S4D
+    "r3kapig" -> "P1G BuT S4D";
+    "C4T BuT S4D" -> "P1G BuT S4D";
 
-    // organizers
-    "secret.club" -> "organizers";
-    "polyflag" -> "organizers";
-    "excusemewtf" -> "organizers";
-    "the cr0wn" -> "organizers";
-
-    // MMM
-    "PPP" -> "MMM";
-    "The Duck" -> "MMM";
-    "Maple Bacon" -> "MMM";
-
+    // Parliament of Ducks
+    "PPP" -> "Parliament of Ducks";
+    "The Duck" -> "Parliament of Ducks";
   }
 
   // level 3 -> level 2
@@ -242,22 +320,30 @@ digraph teams {
     "NCtfU" -> "TSJ";
     "Ret2NOP" -> "TSJ";
 
-    // polyflag
-    "flagbot" -> "polyflag";
-    "polygl0ts" -> "polyflag";
-
     // ESPR
     "KITCTF" -> "Eat Sleep Pwn Repeat";
     "StratumAuhuur" -> "Eat Sleep Pwn Repeat";
 
-    // Dice Gang
-    "Sice Squad"-> "DiceGang"
-    "redpwn"-> "DiceGang"
-    "b1c"-> "DiceGang"
-    "kernel sanders"-> "DiceGang"
-    "sigpwny"-> "DiceGang"
-    "crusaders of rust" -> "DiceGang"
-    "CCC" -> "DiceGang";
+    // Sauercloud (Germany)
+    "Eat Sleep Pwn Repeat" -> "Sauercloud";   
+    "Flux Fingers" -> "Sauercloud";   
+    "Red Rocket" -> "Sauercloud";   
+    "ALLES!" -> "Sauercloud";   
+    "ENOFLAG" -> "Sauercloud";   
+    "FAUST" -> "Sauercloud";   
+    "WizardsOfDos" -> "Sauercloud";   
+    "Squareroots" -> "Sauercloud";   
+    "saarsec" -> "Sauercloud";
+
+    // organizers
+    "secret.club" -> "organizers";
+    "polyflag" -> "organizers";
+    "excusemewtf" -> "organizers";
+    "the cr0wn" -> "organizers";
+
+    // r3kapig
+    "Eur3kA" -> "r3kapig";
+    "FlappyPig" -> "r3kapig";
   }
 
   // level 4 -> level 3
@@ -268,6 +354,19 @@ digraph teams {
     // StratumAuhuur
     "Stratum0" -> "StratumAuhuur";
     "CCCAC" -> "StratumAuhuur";
+
+    // polyflag
+    "flagbot" -> "polyflag";
+    "polygl0ts" -> "polyflag";
+
+    // Dice Gang
+    "Sice Squad"-> "DiceGang"
+    "redpwn"-> "DiceGang"
+    "b1c"-> "DiceGang"
+    "kernel sanders"-> "DiceGang"
+    "sigpwny"-> "DiceGang"
+    "crusaders of rust" -> "DiceGang"
+    "CCC" -> "DiceGang";
   }
 }
 
