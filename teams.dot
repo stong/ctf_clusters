@@ -72,14 +72,11 @@ digraph teams {
     "Lilac" [href=""];
 
     // mhackeroni
-    "TheRomanXpl0it" [href=""];
+    "TheRomanXpl0it" [href="https://ctftime.org/team/46516"];
     "n0pwnintended";
-    "towerofhanoi";
-    "fibonhack";
-    "pwnthem0le" [href="https://ctftime.org/team/60467/"];
+    "Tower of Hanoi" [href="https://ctftime.org/team/300"];
     "about:blankets" [href="https://ctftime.org/team/208552"];
-    "PGiatasti" [href="https://ctftime.org/team/80262"];
-    "c00kiesATvenice";
+    "c00kiesATvenice" [href="https://ctftime.org/team/1752"];
 
     // Blue Water
     "Water Paddler" [href="https://ctftime.org/team/155019"]
@@ -176,6 +173,14 @@ digraph teams {
     // r3kapig
     "Eur3kA" [href="https://ctftime.org/team/48512"];
     "FlappyPig" [href="https://ctftime.org/team/12692"];
+
+    // about:blankets
+    "pwnthem0le" [href="https://ctftime.org/team/60467"];
+    "fibonhack" [href="https://ctftime.org/team/117538"];
+    "havce" [href="https://ctftime.org/team/162123"];
+    "bhackari" [href="https://ctftime.org/team/151661"];
+    "AverageCryptoEnjoyers" [href="https://ctftime.org/team/190452"];
+    "PGiatasti" [href="https://ctftime.org/team/80262"];
   }
 
   // level 4
@@ -240,11 +245,8 @@ digraph teams {
     // mhackeroni
     "TheRomanXpl0it" -> "mhackeroni";
     "n0pwnintended" -> "mhackeroni";
-    "towerofhanoi" -> "mhackeroni";
-    "fibonhack" -> "mhackeroni";
-    "pwnthem0le" -> "mhackeroni";
+    "Tower of Hanoi" -> "mhackeroni";
     "about:blankets" -> "mhackeroni";
-    "PGiatasti" -> "mhackeroni";
     "c00kiesATvenice" -> "mhackeroni";
 
     // Blue Water
@@ -340,6 +342,14 @@ digraph teams {
     "polyflag" -> "organizers";
     "excusemewtf" -> "organizers";
     "the cr0wn" -> "organizers";
+
+    // about:blankets
+    "havce" -> "about:blankets";
+    "PGiatasti" -> "about:blankets";
+    "AverageCryptoEnjoyers" -> "about:blankets";
+    "bhackari" -> "about:blankets";
+    "fibonhack" -> "about:blankets";
+    "pwnthem0le" -> "about:blankets";
 
     // r3kapig
     "Eur3kA" -> "r3kapig";
