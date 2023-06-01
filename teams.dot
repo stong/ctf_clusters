@@ -341,9 +341,6 @@ digraph teams {
     "excusemewtf" -> "organizers";
     "the cr0wn" -> "organizers";
 
-    // r3kapig
-    "Eur3kA" -> "r3kapig";
-    "FlappyPig" -> "r3kapig";
   }
 
   // level 4 -> level 3
